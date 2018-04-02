@@ -33,6 +33,7 @@ public class HttpChargePostTest {
 
         }, "/charging/unFinished");
     }
+
     public void getCharging(){
         HttpGetFormTest.get(new Object[][]{
                 {"pileNo", "EN10703168300712"},
@@ -83,9 +84,9 @@ public class HttpChargePostTest {
     @Test
     public void appoint() {
         HttpBaseApplicationJson.postFormByApplicationJson(new Object[][]{
-                {"chargingId", "22"},
-                {"chargingPileId", "5"},
-                {"type", "2"},
+                {"chargingId", "82"},
+                {"chargingPileId", "53"},
+                {"type", "1"},
         }, "/appointment/appoint");
     }
 

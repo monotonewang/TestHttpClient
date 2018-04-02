@@ -4,6 +4,7 @@ package com.example.ubuntu.testhttpclient.http.station;
 import com.example.ubuntu.testhttpclient.http.HttpUserLoginTest;
 
 import org.apache.http.Consts;
+import org.apache.http.Header;
 import org.apache.http.HttpEntity;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
@@ -37,18 +38,19 @@ public class HttpGetStationTest {
 
 
     @Test
-    public void getAppoint(){
+    public void getAppoint() {
 
         HttpGetStationTest.get(new Object[][]{}, "/appointment/getAppoint");
 
     }
+
     /**
      * 获取所有充电站点
      */
     @Test
     public void getALLStationWithVersion() {
 
-        HttpGetStationTest.get(new Object[][]{}, "/station/getAllData");
+        HttpGetStationTest.get(new Object[][]{}, "/station/getAllData", false);
 
     }
 
@@ -56,7 +58,7 @@ public class HttpGetStationTest {
     public void getALLStationNew() {
         HttpGetStationTest.get(new Object[][]{
                 {"version", "1"},
-        }, "/versionManage/getList");
+        }, "/versionManage/getList",false);
     }
 
 
@@ -197,6 +199,88 @@ public class HttpGetStationTest {
     String GetHotCity = "/station/getHotCity";//故障上报
     String GetStationList = "/station/getall";//获取充电站列表
 
+    public static void get(Object[][] string, String url, boolean isToken) {
+        CloseableHttpClient httpClient = HttpClients.createDefault();// 创建默认的httpClient实例.
+        System.out.println("url=" + url);
+        HttpGet httpGet = null;
+//        httpGet.addHeader("Content-type", "application/json; charset=utf-8");
+//        httpGet.addHeader("Content-type", "application/x-www-form-urlencoded");
+
+        //封装请求参数
+        List<NameValuePair> params = new ArrayList<>();
+        for (int x = 0; x < string.length; x++) {
+            String key = (String) string[x][0];
+            Object value = string[x][1];
+            if (value instanceof String) {
+                String value1 = (String) value;
+
+                params.add(new BasicNameValuePair(key, value1));
+            } else if (value instanceof Integer) {
+                Integer value1 = (Integer) value;
+            } else if (value instanceof Boolean) {
+                Boolean value2 = (Boolean) value;
+            }
+        }
+        String stringRes = params.toString();
+        System.out.println("request=" + stringRes);
+//        params.add(new BasicNameValuePair("telephone", "121212"));
+
+        String str = "";
+        try {
+            //转换为键值对
+            str = EntityUtils.toString(new UrlEncodedFormEntity(params, Consts.UTF_8));
+            System.out.println(str);
+
+            httpGet = new HttpGet(HttpUserLoginTest.getBaseUrl(HttpUserLoginTest.http_status) + url + "?" + str);
+
+            if (isToken) {
+                httpGet.addHeader("token", HttpUserLoginTest.token);
+
+                System.out.println("-----------------------add token=" );
+            }
+            else {
+                httpGet.addHeader("token", "");
+            }
+
+            Header[] tokens = httpGet.getHeaders("token");
+
+            System.out.println();
+
+        } catch (Exception e) {
+
+        }
+        try {
+            System.out.println("executing request " + httpGet.getURI());
+            CloseableHttpResponse response = httpClient.execute(httpGet);
+            try {
+                Header[] allHeaders = response.getAllHeaders();
+
+                for (int i = 0; i < allHeaders.length; i++) {
+                    System.out.println("response Headers=name"+allHeaders[i].getName()+"value="+allHeaders[i].getValue());
+                }
+
+                HttpEntity entity = response.getEntity();
+                if (entity != null) {
+                    System.out.println("length" + entity.getContentLength());
+                    System.out.println(EntityUtils.toString(entity, "UTF-8"));
+//                    System.out.println("Response content: \n" + EntityUtils.toString(entity, "UTF-8"));
+                }
+            } finally {
+                response.close();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            // 关闭连接,释放资源
+            try {
+                httpClient.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+
     public static void get(Object[][] string, String url) {
         CloseableHttpClient httpClient = HttpClients.createDefault();// 创建默认的httpClient实例.
         System.out.println("url=" + url);
@@ -230,6 +314,7 @@ public class HttpGetStationTest {
             System.out.println(str);
 
             httpGet = new HttpGet(HttpUserLoginTest.getBaseUrl(HttpUserLoginTest.http_status) + url + "?" + str);
+
             httpGet.addHeader("token", HttpUserLoginTest.token);
 
         } catch (Exception e) {
