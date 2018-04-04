@@ -44,7 +44,7 @@ public class HttpUserLoginTest {
 //    15381042981 fanjia
     // 13634133426 password 123321212
     Object[][] phoneLoginTest = {//key-- value
-            {"telephone", "13634133432"},
+            {"telephone", "13634133426"},
             {"password", "12345678"},
             {"loginType", 1},//1-手机号登录，2-第三方登录
             {"deviceToken", "tetsslkfdsnjfkldsnfdlskfall12121221"},
@@ -92,7 +92,7 @@ public class HttpUserLoginTest {
         HttpBaseApplicationJson.postFormByApplicationJson(thirdLoginString, "/user/anno/loginBasic");
     }
 
-    public static String token = "d2413d9e90aa46bdb6349a0e34859486";
+    public static String token = "";
 
 
     @Test

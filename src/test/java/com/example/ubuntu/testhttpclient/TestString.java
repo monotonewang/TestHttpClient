@@ -10,10 +10,17 @@ import java.text.DecimalFormat;
 
 public class TestString {
 
+
+
     @Test
     public void testStrig() {
         String icon = "http:\\/\\/q.qlogo.cn\\/qqapp\\/1106564086\\/B65AC6BF436FC01566A2318789375255\\/100";
 
+        double floor=1.00;
+
+        String format = new DecimalFormat("#0.0").format(floor);
+
+        System.out.println(format);
 
     }
 

@@ -91,6 +91,18 @@ public class HttpChargePostTest {
     }
 
 
+    /**
+     * 新二维码扫描
+     */
+    @Test
+    public void ScanCharginTest() {
+        HttpGetFormTest.get(new Object[][]{
+                {"chargingNo", "1"},
+                {"pileNo", "EN10703168300712"},
+                {"appType", "2"},
+        }, "/chargingScan/scanCharging");
+    }
+
     @Test
     public void startCharge() {
         HttpBaseApplicationJson.postFormByApplicationJson(new Object[][]{

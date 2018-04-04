@@ -239,7 +239,7 @@ public class HttpGetStationTest {
                 System.out.println("-----------------------add token=" );
             }
             else {
-                httpGet.addHeader("token", "");
+//                httpGet.addHeader("token", "");
             }
 
             Header[] tokens = httpGet.getHeaders("token");
