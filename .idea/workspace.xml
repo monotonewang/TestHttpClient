@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="20a9b596-88ee-4bb3-ad2a-54f02e9e19ae" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/weakreference/TestWeakReference.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/weakreference/TestWeakReference.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/HttpUserLoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/HttpUserLoginTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/coupon/HttpGetCouponTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/coupon/HttpGetCouponTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -78,9 +79,27 @@
               <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#763#771#0" expanded="true" />
-                <element signature="e#1223#1231#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpUserLoginTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/HttpUserLoginTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="94" column="66" lean-forward="false" selection-start-line="94" selection-start-column="66" selection-end-line="94" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpGetCouponTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/coupon/HttpGetCouponTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,8 +107,8 @@
       <file leaf-file-name="System.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/System.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="992" column="22" lean-forward="true" selection-start-line="992" selection-start-column="22" selection-end-line="992" selection-end-column="22" />
+            <state relative-caret-position="14175">
+              <caret line="992" column="22" lean-forward="false" selection-start-line="992" selection-start-column="22" selection-end-line="992" selection-end-column="22" />
               <folding>
                 <element signature="e#11566#11567#0" expanded="true" />
                 <element signature="e#11597#11598#0" expanded="true" />
@@ -103,7 +122,7 @@
       <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
+            <state relative-caret-position="16260">
               <caret line="1151" column="29" lean-forward="false" selection-start-line="1151" selection-start-column="29" selection-end-line="1151" selection-end-column="29" />
               <folding>
                 <element signature="e#44253#44254#0" expanded="true" />
@@ -118,7 +137,56 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2220">
               <caret line="168" column="34" lean-forward="false" selection-start-line="168" selection-start-column="34" selection-end-line="168" selection-end-column="34" />
-              <folding />
+              <folding>
+                <marker date="1505382647000" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1505382647000" expanded="false" signature="132:184" ph="..." />
+                <marker date="1505382647000" expanded="true" signature="254:272" ph="/**...*/" />
+                <marker date="1505382647000" expanded="true" signature="338:356" ph="/**...*/" />
+                <marker date="1505382647000" expanded="true" signature="423:441" ph="/**...*/" />
+                <marker date="1505382647000" expanded="true" signature="1390:1397" ph="{}" />
+                <marker date="1505382647000" expanded="true" signature="1403:1421" ph="/**...*/" />
+                <marker date="1505382647000" expanded="false" signature="1482:1493" ph=" { " />
+                <marker date="1505382647000" expanded="false" signature="1510:1516" ph=" }" />
+                <marker date="1505382647000" expanded="true" signature="1598:1654" ph="{...}" />
+                <marker date="1505382647000" expanded="true" signature="1660:1678" ph="/**...*/" />
+                <marker date="1505382647000" expanded="true" signature="1738:1792" ph="{...}" />
+                <marker date="1505382647000" expanded="true" signature="1798:1816" ph="/**...*/" />
+                <marker date="1505382647000" expanded="false" signature="1874:1885" ph=" { " />
+                <marker date="1505382647000" expanded="false" signature="1903:1909" ph=" }" />
+                <marker date="1505382647000" expanded="true" signature="1915:1933" ph="/**...*/" />
+                <marker date="1505382647000" expanded="true" signature="1996:2003" ph="{}" />
+                <marker date="1505382647000" expanded="true" signature="2009:2027" ph="/**...*/" />
+                <marker date="1505382647000" expanded="false" signature="2082:2093" ph=" { " />
+                <marker date="1505382647000" expanded="false" signature="2102:2108" ph=" }" />
+                <marker date="1505382647000" expanded="true" signature="2114:2132" ph="/**...*/" />
+                <marker date="1505382647000" expanded="true" signature="2216:2223" ph="{}" />
+                <marker date="1505382647000" expanded="true" signature="2229:2247" ph="/**...*/" />
+                <marker date="1505382647000" expanded="true" signature="2316:2323" ph="{}" />
+                <marker date="1505382647000" expanded="true" signature="2329:2347" ph="/**...*/" />
+                <marker date="1505382647000" expanded="true" signature="2428:2435" ph="{}" />
+                <marker date="1505382647000" expanded="true" signature="2469:2600" ph="{...}" />
+                <marker date="1505382647000" expanded="false" signature="2638:2649" ph=" { " />
+                <marker date="1505382647000" expanded="false" signature="2663:2669" ph=" }" />
+                <marker date="1505382647000" expanded="true" signature="2736:2883" ph="{...}" />
+                <marker date="1505382647000" expanded="false" signature="2925:2936" ph=" { " />
+                <marker date="1505382647000" expanded="false" signature="2956:2962" ph=" }" />
+                <marker date="1505382647000" expanded="false" signature="3017:3028" ph=" { " />
+                <marker date="1505382647000" expanded="false" signature="3057:3063" ph=" }" />
+                <marker date="1505382647000" expanded="false" signature="3109:3120" ph=" { " />
+                <marker date="1505382647000" expanded="false" signature="3144:3150" ph=" }" />
+                <marker date="1505382647000" expanded="false" signature="3216:3227" ph=" { " />
+                <marker date="1505382647000" expanded="false" signature="3247:3253" ph=" }" />
+                <marker date="1505382647000" expanded="true" signature="3310:3512" ph="{...}" />
+                <marker date="1505382647000" expanded="true" signature="3578:4775" ph="{...}" />
+                <marker date="1505382647000" expanded="true" signature="4826:4907" ph="{...}" />
+                <marker date="1505382647000" expanded="false" signature="4949:4960" ph=" { " />
+                <marker date="1505382647000" expanded="false" signature="4981:4987" ph=" }" />
+                <marker date="1505382647000" expanded="false" signature="5033:5044" ph=" { " />
+                <marker date="1505382647000" expanded="false" signature="5069:5075" ph=" }" />
+                <marker date="1505382647000" expanded="true" signature="5127:5272" ph="{...}" />
+                <marker date="1505382647000" expanded="true" signature="5322:5789" ph="{...}" />
+                <marker date="1505382647000" expanded="true" signature="5913:6091" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,7 +196,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-              <folding />
+              <folding>
+                <marker date="1505382647000" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1505382647000" expanded="true" signature="181:188" ph="{}" />
+                <marker date="1505382647000" expanded="true" signature="226:233" ph="{}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,18 +208,18 @@
       <file leaf-file-name="Terminator.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/Terminator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
+            <state relative-caret-position="345">
               <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Runtime.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Runtime.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/Runtime.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-629">
-              <caret line="46" column="48" lean-forward="false" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+            <state relative-caret-position="1140">
+              <caret line="104" column="63" lean-forward="false" selection-start-line="104" selection-start-column="63" selection-end-line="104" selection-end-column="63" />
               <folding>
                 <element signature="e#1272#1273#0" expanded="true" />
                 <element signature="e#1309#1310#0" expanded="true" />
@@ -156,31 +228,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SoftReference.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/ref/SoftReference.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="63" column="42" lean-forward="false" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Reference.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/ref/Reference.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="300" column="0" lean-forward="true" selection-start-line="300" selection-start-column="0" selection-end-line="300" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReferenceQueue.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/ref/ReferenceQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+            <state relative-caret-position="3930">
+              <caret line="300" column="0" lean-forward="false" selection-start-line="300" selection-start-column="0" selection-end-line="300" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -544,8 +596,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/weakreference/People.kt" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/funki/HttpFormTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/HttpUserLoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/weakreference/TestWeakReference.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/HttpUserLoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/coupon/HttpGetCouponTest.java" />
       </list>
     </option>
   </component>
@@ -556,8 +609,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="122" />
+    <option name="x" value="3" />
+    <option name="y" value="41" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
   </component>
@@ -623,28 +676,48 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestHttpClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestHttpClient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="ubuntu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestHttpClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestHttpClient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="ubuntu" type="462c0819:PsiDirectoryNode" />
               <item name="testhttpclient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestHttpClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestHttpClient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="testhttpclient" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestHttpClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestHttpClient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="testhttpclient" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="coupon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestHttpClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestHttpClient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="testhttpclient" type="462c0819:PsiDirectoryNode" />
+              <item name="option" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestHttpClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestHttpClient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="testhttpclient" type="462c0819:PsiDirectoryNode" />
+              <item name="orented" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestHttpClient" type="b2602c69:ProjectViewProjectNode" />
@@ -690,9 +763,9 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -724,7 +797,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestWeakReference.testWeak">
+  <component name="RunManager" selected="JUnit.HttpGetCouponTest.getCouponList">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -746,19 +819,19 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="HttpChargeTest.charge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HttpGetCouponTest.getCouponList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.example.ubuntu.testhttpclient.http.web.*" />
+          <option name="PATTERN" value="com.example.ubuntu.testhttpclient.http.coupon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="TestHttpClient_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.example.ubuntu.testhttpclient.http.web" />
-      <option name="MAIN_CLASS_NAME" value="com.example.ubuntu.testhttpclient.http.web.HttpChargeTest" />
-      <option name="METHOD_NAME" value="charge" />
+      <option name="PACKAGE_NAME" value="com.example.ubuntu.testhttpclient.http.coupon" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ubuntu.testhttpclient.http.coupon.HttpGetCouponTest" />
+      <option name="METHOD_NAME" value="getCouponList" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -933,18 +1006,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.HttpUserLoginTest.testPhoneLogin" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.HttpChargeTest.charge" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestWeakReference.testWeak" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestWeakReference.testSoft" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestWeakReference.testStrong" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestWeakReference.testWeak" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestWeakReference.testSoft" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestWeakReference.testStrong" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.HttpGetCouponTest.getCouponList" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestWeakReference.testWeak" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestWeakReference.testSoft" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestWeakReference.testStrong" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.HttpUserLoginTest.testPhoneLogin" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.HttpChargeTest.charge" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.HttpGetCouponTest.getCouponList" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.HttpUserLoginTest.testPhoneLogin" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestWeakReference.testWeak" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestWeakReference.testSoft" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestWeakReference.testStrong" />
       </list>
     </recent_temporary>
   </component>
@@ -969,19 +1042,20 @@
       <workItem from="1522664813726" duration="232000" />
       <workItem from="1522716308075" duration="1699000" />
       <workItem from="1522734003429" duration="1095000" />
-      <workItem from="1522875590702" duration="2862000" />
+      <workItem from="1522875590702" duration="3105000" />
+      <workItem from="1523240415888" duration="649000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestWeakReference_testSoft - 2018.04.05 at 05h 35m 55s.xml">
-      <configuration name="TestWeakReference.testSoft" configurationId="JUnit" />
+    <history-entry file="HttpGetCouponTest_getCouponList - 2018.04.09 at 10h 21m 54s.xml">
+      <configuration name="HttpGetCouponTest.getCouponList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestWeakReference_testSoft - 2018.04.05 at 05h 36m 01s.xml">
-      <configuration name="TestWeakReference.testSoft" configurationId="JUnit" />
+    <history-entry file="HttpUserLoginTest_testPhoneLogin - 2018.04.09 at 10h 20m 58s.xml">
+      <configuration name="HttpUserLoginTest.testPhoneLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestWeakReference_testSoft - 2018.04.05 at 05h 36m 28s.xml">
-      <configuration name="TestWeakReference.testSoft" configurationId="JUnit" />
+    <history-entry file="HttpUserLoginTest_testPhoneLogin - 2018.04.09 at 10h 21m 28s.xml">
+      <configuration name="HttpUserLoginTest.testPhoneLogin" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestWeakReference_testStrong - 2018.04.05 at 05h 35m 04s.xml">
       <configuration name="TestWeakReference.testStrong" configurationId="JUnit" />
@@ -1006,7 +1080,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10194000" />
+    <option name="totallyTimeSpent" value="11086000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1018,8 +1092,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="122" width="1680" height="1027" extended-state="0" />
-    <editor active="true" />
+    <frame x="3" y="41" width="1680" height="1027" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1029,13 +1102,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27682403" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3530043" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18445475" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3321471" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33154505" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1929182" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1953602" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2735043" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1048,6 +1120,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1065,13 +1138,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/ListIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1358">
-          <caret line="59" column="17" lean-forward="false" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/ListResourceBundle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
@@ -1265,7 +1331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="41" column="3" lean-forward="false" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1273,7 +1338,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1289,7 +1353,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3135">
           <caret line="242" column="13" lean-forward="false" selection-start-line="242" selection-start-column="13" selection-end-line="242" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1297,7 +1360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1305,7 +1367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1313,7 +1374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="83" column="3" lean-forward="false" selection-start-line="83" selection-start-column="3" selection-end-line="90" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1321,7 +1381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="75" lean-forward="false" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1329,9 +1388,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="172" column="63" lean-forward="false" selection-start-line="172" selection-start-column="63" selection-end-line="172" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1355,21 +1411,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/HttpUserLoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="94" column="34" lean-forward="false" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/ref/SoftReference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
+        <state relative-caret-position="600">
           <caret line="63" column="42" lean-forward="false" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
           <folding />
         </state>
@@ -1377,7 +1424,7 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/ref/ReferenceQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
+        <state relative-caret-position="180">
           <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
           <folding />
         </state>
@@ -1385,15 +1432,15 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/ref/Reference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="300" column="0" lean-forward="true" selection-start-line="300" selection-start-column="0" selection-end-line="300" selection-end-column="0" />
+        <state relative-caret-position="3930">
+          <caret line="300" column="0" lean-forward="false" selection-start-line="300" selection-start-column="0" selection-end-line="300" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/Terminator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
+        <state relative-caret-position="345">
           <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
           <folding />
         </state>
@@ -1403,7 +1450,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
+          <folding>
+            <marker date="1505382647000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1505382647000" expanded="true" signature="181:188" ph="{}" />
+            <marker date="1505382647000" expanded="true" signature="226:233" ph="{}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1411,13 +1462,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2220">
           <caret line="168" column="34" lean-forward="false" selection-start-line="168" selection-start-column="34" selection-end-line="168" selection-end-column="34" />
-          <folding />
+          <folding>
+            <marker date="1505382647000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1505382647000" expanded="false" signature="132:184" ph="..." />
+            <marker date="1505382647000" expanded="true" signature="254:272" ph="/**...*/" />
+            <marker date="1505382647000" expanded="true" signature="338:356" ph="/**...*/" />
+            <marker date="1505382647000" expanded="true" signature="423:441" ph="/**...*/" />
+            <marker date="1505382647000" expanded="true" signature="1390:1397" ph="{}" />
+            <marker date="1505382647000" expanded="true" signature="1403:1421" ph="/**...*/" />
+            <marker date="1505382647000" expanded="false" signature="1482:1493" ph=" { " />
+            <marker date="1505382647000" expanded="false" signature="1510:1516" ph=" }" />
+            <marker date="1505382647000" expanded="true" signature="1598:1654" ph="{...}" />
+            <marker date="1505382647000" expanded="true" signature="1660:1678" ph="/**...*/" />
+            <marker date="1505382647000" expanded="true" signature="1738:1792" ph="{...}" />
+            <marker date="1505382647000" expanded="true" signature="1798:1816" ph="/**...*/" />
+            <marker date="1505382647000" expanded="false" signature="1874:1885" ph=" { " />
+            <marker date="1505382647000" expanded="false" signature="1903:1909" ph=" }" />
+            <marker date="1505382647000" expanded="true" signature="1915:1933" ph="/**...*/" />
+            <marker date="1505382647000" expanded="true" signature="1996:2003" ph="{}" />
+            <marker date="1505382647000" expanded="true" signature="2009:2027" ph="/**...*/" />
+            <marker date="1505382647000" expanded="false" signature="2082:2093" ph=" { " />
+            <marker date="1505382647000" expanded="false" signature="2102:2108" ph=" }" />
+            <marker date="1505382647000" expanded="true" signature="2114:2132" ph="/**...*/" />
+            <marker date="1505382647000" expanded="true" signature="2216:2223" ph="{}" />
+            <marker date="1505382647000" expanded="true" signature="2229:2247" ph="/**...*/" />
+            <marker date="1505382647000" expanded="true" signature="2316:2323" ph="{}" />
+            <marker date="1505382647000" expanded="true" signature="2329:2347" ph="/**...*/" />
+            <marker date="1505382647000" expanded="true" signature="2428:2435" ph="{}" />
+            <marker date="1505382647000" expanded="true" signature="2469:2600" ph="{...}" />
+            <marker date="1505382647000" expanded="false" signature="2638:2649" ph=" { " />
+            <marker date="1505382647000" expanded="false" signature="2663:2669" ph=" }" />
+            <marker date="1505382647000" expanded="true" signature="2736:2883" ph="{...}" />
+            <marker date="1505382647000" expanded="false" signature="2925:2936" ph=" { " />
+            <marker date="1505382647000" expanded="false" signature="2956:2962" ph=" }" />
+            <marker date="1505382647000" expanded="false" signature="3017:3028" ph=" { " />
+            <marker date="1505382647000" expanded="false" signature="3057:3063" ph=" }" />
+            <marker date="1505382647000" expanded="false" signature="3109:3120" ph=" { " />
+            <marker date="1505382647000" expanded="false" signature="3144:3150" ph=" }" />
+            <marker date="1505382647000" expanded="false" signature="3216:3227" ph=" { " />
+            <marker date="1505382647000" expanded="false" signature="3247:3253" ph=" }" />
+            <marker date="1505382647000" expanded="true" signature="3310:3512" ph="{...}" />
+            <marker date="1505382647000" expanded="true" signature="3578:4775" ph="{...}" />
+            <marker date="1505382647000" expanded="true" signature="4826:4907" ph="{...}" />
+            <marker date="1505382647000" expanded="false" signature="4949:4960" ph=" { " />
+            <marker date="1505382647000" expanded="false" signature="4981:4987" ph=" }" />
+            <marker date="1505382647000" expanded="false" signature="5033:5044" ph=" { " />
+            <marker date="1505382647000" expanded="false" signature="5069:5075" ph=" }" />
+            <marker date="1505382647000" expanded="true" signature="5127:5272" ph="{...}" />
+            <marker date="1505382647000" expanded="true" signature="5322:5789" ph="{...}" />
+            <marker date="1505382647000" expanded="true" signature="5913:6091" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
+        <state relative-caret-position="16260">
           <caret line="1151" column="29" lean-forward="false" selection-start-line="1151" selection-start-column="29" selection-end-line="1151" selection-end-column="29" />
           <folding>
             <element signature="e#44253#44254#0" expanded="true" />
@@ -1426,22 +1526,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/weakreference/TestWeakReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#763#771#0" expanded="true" />
-            <element signature="e#1223#1231#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="992" column="22" lean-forward="true" selection-start-line="992" selection-start-column="22" selection-end-line="992" selection-end-column="22" />
+        <state relative-caret-position="14175">
+          <caret line="992" column="22" lean-forward="false" selection-start-line="992" selection-start-column="22" selection-end-line="992" selection-end-column="22" />
           <folding>
             <element signature="e#11566#11567#0" expanded="true" />
             <element signature="e#11597#11598#0" expanded="true" />
@@ -1453,12 +1541,38 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/Runtime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-629">
-          <caret line="46" column="48" lean-forward="false" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+        <state relative-caret-position="1140">
+          <caret line="104" column="63" lean-forward="false" selection-start-line="104" selection-start-column="63" selection-end-line="104" selection-end-column="63" />
           <folding>
             <element signature="e#1272#1273#0" expanded="true" />
             <element signature="e#1309#1310#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/weakreference/TestWeakReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/HttpUserLoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="94" column="66" lean-forward="false" selection-start-line="94" selection-start-column="66" selection-end-line="94" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/coupon/HttpGetCouponTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

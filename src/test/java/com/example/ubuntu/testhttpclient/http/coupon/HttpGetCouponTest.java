@@ -22,6 +22,13 @@ public class HttpGetCouponTest {
     }
 
     @Test
+    public void getCouponList() {
+        HttpGetFormTest.get(new Object[][]{
+
+        }, "/user-coupon/getUserCouponList");
+    }
+
+    @Test
     public void updateNOReadCoupon() {
         HttpBaseApplicationJson.postFormByApplicationJson(new Object[][]{}, "/user-coupon/updateNOReadCoupon");
     }
