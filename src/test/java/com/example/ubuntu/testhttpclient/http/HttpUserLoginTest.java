@@ -92,7 +92,7 @@ public class HttpUserLoginTest {
         HttpBaseApplicationJson.postFormByApplicationJson(thirdLoginString, "/user/anno/loginBasic");
     }
 
-    public static String token = "27d5278a6d7d4914b03d9e66a88c3c53";
+    public static String token = "bc52722d034843bfa95c3d8f00bf3f93";
 
 
     @Test
