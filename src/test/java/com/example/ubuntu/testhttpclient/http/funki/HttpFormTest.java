@@ -15,6 +15,7 @@ import java.io.IOException;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 import java.nio.charset.Charset;
+import java.util.HashMap;
 
 
 /**
@@ -146,6 +147,65 @@ public class HttpFormTest {
 
 
 
+
+    @Test
+    public static void postFormByForm(HashMap<String,String> hashMap, String url) {
+        CloseableHttpClient httpclient = HttpClients.createDefault();// 创建默认的httpClient实例.
+        System.out.println("url=" + url);
+        HttpPost httppost = new HttpPost(url);        // 创建httppost
+        httppost.addHeader("Content-type", "application/json; charset=utf-8");
+
+        httppost.addHeader("token", "eyd0b2tlbl90eXBlJzogJ2FjY2VzcycsICd0eXAnOiAnSldUJ30=.eyJ1c2VyTmFtZSI6ICIyRUVLOVo1SyIsICJzdGF0dXMiOiAwLCAibW9iaWxlIjogbnVsbCwgImdlbmRlciI6IDMsICJleHBpcmVzIjogMTUwNDE2MjA5NS42NjEwNzYsICJ1c2VySWQiOiAxMDcsICJzZnl6Zm1tIjogZmFsc2UsICJpbWVpIjogIjV4IiwgInVzZXJXb3JsZCI6ICJlOTA0MTJlNDExZDM5Y2I4IiwgInBheXBhbEFjY291bnQiOiBudWxsLCAibmlja05hbWUiOiAieGJ4aGRqZGpqIiwgImVtYWlsIjogIjEyNEBxcS5jb20iLCAidmlwVHlwZSI6IDAsICJpY29uIjogIiJ9.6cffe68f6beb5b650523cea1e4d0c01ae9dbc485d078135ecc52c7b2395c8e45");
+        httppost.addHeader("funkiSystem", "androidFunki");
+        httppost.addHeader("softwareName", "androidFunki8");
+        httppost.addHeader("imei", "_ff6b4e9a_5");
+        httppost.addHeader("session", "");
+        httppost.addHeader("system", "Android5.0");
+        httppost.addHeader("deviceName", "Mi-4C");
+        httppost.addHeader("deviceType", "android8");
+        httppost.addHeader("ip", "192.168.100.100");
+        httppost.addHeader("geo", "");
+        httppost.addHeader("isBreak", "1");
+        httppost.addHeader("funkiVersion", "1");
+
+        httppost.addHeader("Content-type", "application/json");
+        httppost.setHeader("Accept", "application/json");
+        JsonObject j = new JsonObject();
+
+
+        for(String key:hashMap.keySet())
+        {
+            System.out.println("Key: "+key+" Value: "+hashMap.get(key));
+            j.addProperty(key, hashMap.get(key));
+        }
+
+        String stringRes = j.toString();
+        System.out.println("stringRes=" + stringRes);
+        httppost.setEntity(new StringEntity(stringRes, Charset.forName("UTF-8")));
+        try {
+            System.out.println("executing request " + httppost.getURI());
+            CloseableHttpResponse response = httpclient.execute(httppost);
+            try {
+                HttpEntity entity = response.getEntity();
+                if (entity != null) {
+                    System.out.println("length" + entity.getContentLength());
+                    System.out.println(EntityUtils.toString(entity, "UTF-8"));
+//                    System.out.println("Response content: \n" + EntityUtils.toString(entity, "UTF-8"));
+                }
+            } finally {
+                response.close();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            // 关闭连接,释放资源
+            try {
+                httpclient.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
 
 
 

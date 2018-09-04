@@ -1,6 +1,5 @@
 package com.example.ubuntu.testhttpclient;
 
-import org.apache.commons.codec.binary.StringUtils;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.junit.Test;
