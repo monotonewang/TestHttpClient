@@ -1,4 +1,4 @@
-package com.example.ubuntu.testhttpclient.http.base;
+package com.example.ubuntu.testhttpclient.http.funki;
 
 import com.google.gson.GsonBuilder;
 

@@ -1,4 +1,4 @@
-package com.example.ubuntu.testhttpclient.http.message;
+package com.example.ubuntu.testhttpclient.http.chargestation.message;
 
 
 import com.example.ubuntu.testhttpclient.http.base.HttpBaseApplicationJson;

@@ -1,4 +1,4 @@
-package com.example.ubuntu.testhttpclient.http.user;
+package com.example.ubuntu.testhttpclient.http;
 
 
 import com.example.ubuntu.testhttpclient.http.HttpUserLoginTest;

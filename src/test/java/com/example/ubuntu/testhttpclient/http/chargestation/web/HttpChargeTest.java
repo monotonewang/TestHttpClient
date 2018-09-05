@@ -1,4 +1,4 @@
-package com.example.ubuntu.testhttpclient.http.web;
+package com.example.ubuntu.testhttpclient.http.chargestation.web;
 
 import com.example.ubuntu.testhttpclient.http.base.HttpBaseApplicationJson;
 import org.junit.Test;

@@ -77,10 +77,16 @@ public class HttpBaseApplicationJson {
         }
     }
 
+    /**
+     * funki-post-application---/json
+     *
+     * @param string
+     * @param url
+     */
     public static void postFormByApplicationJson(Object[][] string, String url) {
         CloseableHttpClient httpclient = HttpClients.createDefault();// 创建默认的httpClient实例.
         System.out.println("url=" + url);
-        HttpPost httppost = new HttpPost(HttpUserLoginTest.getBaseUrl(HttpUserLoginTest.http_status)+url);        // 创建httppost
+        HttpPost httppost = new HttpPost(HttpUserLoginTest.getBaseUrl(HttpUserLoginTest.http_status) + url);        // 创建httppost
         httppost.addHeader("token", HttpUserLoginTest.token);
 //        httppost.addHeader("funkiSystem", "androidFunki");
 //        httppost.addHeader("softwareName", "androidFunki");
@@ -118,7 +124,7 @@ public class HttpBaseApplicationJson {
             System.out.println(header.getName() + "---" + header.getValue());
         }
         String method = httppost.getMethod();
-        System.out.println("method="+method);
+        System.out.println("method=" + method);
         String stringRes = j.toString();
         System.out.println("stringRes=" + stringRes);
         httppost.setEntity(new StringEntity(stringRes, Charset.forName("UTF-8")));

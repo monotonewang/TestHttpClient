@@ -1,4 +1,4 @@
-package com.example.ubuntu.testhttpclient.http.station;
+package com.example.ubuntu.testhttpclient.http.chargestation.station;
 
 
 import com.example.ubuntu.testhttpclient.http.HttpUserLoginTest;

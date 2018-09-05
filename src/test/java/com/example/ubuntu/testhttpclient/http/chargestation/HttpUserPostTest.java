@@ -1,6 +1,7 @@
-package com.example.ubuntu.testhttpclient.http.user;
+package com.example.ubuntu.testhttpclient.http.chargestation;
 
 
+import com.example.ubuntu.testhttpclient.http.HttpUserGetTest;
 import com.example.ubuntu.testhttpclient.http.base.HttpBaseApplicationJson;
 import com.example.ubuntu.testhttpclient.http.base.HttpGetFormTest;
 

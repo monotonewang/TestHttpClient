@@ -1,4 +1,4 @@
-package com.example.ubuntu.testhttpclient.http.coupon;
+package com.example.ubuntu.testhttpclient.http.chargestation.coupon;
 
 
 import com.example.ubuntu.testhttpclient.http.base.HttpBaseApplicationJson;

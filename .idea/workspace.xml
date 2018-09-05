@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="499cbf40-badb-4c6a-8d03-0a3d9cd1ceb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/properties/PropertiesUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="499cbf40-badb-4c6a-8d03-0a3d9cd1ceb2" name="Default Changelist" comment="alter">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/funki/HttpFunkiFormsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/weixue/HttpRecommendCourse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/funki/HttpFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/funki/HttpFormTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/funki/HttpGetFormTestx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/funki/HttpGetFormTestx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/HttpFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/HttpFormTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/account/HttpAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/chargestation/account/HttpAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/base/HttpApplicationJsonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/funki/HttpApplicationJsonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/base/HttpBaseApplicationJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/base/HttpBaseApplicationJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/base/HttpPostXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/funki/HttpPostXml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/charge/HttpChargePostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/chargestation/charge/HttpChargePostTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/coupon/HttpGetCouponTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/chargestation/coupon/HttpGetCouponTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/funki/HttpFormTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/funki/HttpGetFormTestx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/HttpGetFormTestx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/message/HttpMessagePostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/chargestation/message/HttpMessagePostTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/station/HttpGetStationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/chargestation/station/HttpGetStationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/station/HttpMessagePostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/chargestation/station/HttpMessagePostTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/station/HttpPostStationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/chargestation/station/HttpPostStationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/user/HttpUserGetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/HttpUserGetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/user/HttpUserPostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/chargestation/HttpUserPostTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/web/HttpChargeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/chargestation/web/HttpChargeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/weixue/HttpWeixueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/weixue/HttpWeixueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/properties/weixue.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/properties/weixue.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,67 +55,55 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="5" />
+          <entry key="class" value="6" />
           <entry key="gradle" value="1" />
-          <entry key="java" value="20" />
+          <entry key="java" value="48" />
           <entry key="kt" value="1" />
-          <entry key="properties" value="6" />
+          <entry key="properties" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="5" />
+          <entry key="CLASS" value="6" />
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="20" />
+          <entry key="JAVA" value="48" />
           <entry key="Kotlin" value="1" />
-          <entry key="Properties" value="6" />
+          <entry key="Properties" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="5" />
-          <entry key="java" value="2466" />
+          <entry key="dummy" value="10" />
+          <entry key="java" value="2743" />
+          <entry key="properties" value="1" />
           <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2466" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="JAVA" value="2743" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="Properties" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/funki/HttpGetFormTestx.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="195" column="29" selection-start-line="195" selection-start-column="29" selection-end-line="195" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/funki/HttpFormTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="152" column="36" selection-start-line="152" selection-start-column="36" selection-end-line="152" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/weixue/HttpWeixueTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/HttpGetFormTestx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="225" lean-forward="true" selection-start-line="225" selection-end-line="225" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3704#3705#0" expanded="true" />
-                <element signature="e#3767#3768#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/HttpUserGetTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-564">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -113,66 +114,67 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/file/HttpUploadTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="474" column="11" selection-start-line="474" selection-start-column="11" selection-end-line="474" selection-end-column="11" />
-              <folding>
-                <element signature="e#19327#19328#0" expanded="true" />
-                <element signature="e#19410#19411#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="6" selection-end-line="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/properties/PropertiesUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/chargestation/account/HttpAccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="402">
+              <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/HttpFormTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1102">
+              <caret line="218" column="36" lean-forward="true" selection-start-line="218" selection-start-column="36" selection-end-line="218" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/base/HttpBaseApplicationJson.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/base/HttpGetFormTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-283">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/base/HttpIpTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/weixue/HttpWeixueTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="673">
+              <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="109" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/Properties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="967" column="18" selection-start-line="967" selection-start-column="18" selection-end-line="967" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/System.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="712" column="25" selection-start-line="712" selection-start-column="25" selection-end-line="712" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/Package.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="118" column="18" selection-start-line="118" selection-start-column="18" selection-end-line="118" selection-end-column="18" />
-              <folding>
-                <element signature="e#3577#3578#0" expanded="true" />
-                <element signature="e#3607#3608#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/src/lib/httpcore-4.4.6.jar!/org/apache/http/util/TextUtils.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -190,6 +192,9 @@
     <findStrings>
       <find>params</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/chargestation</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -242,11 +247,26 @@
         <option value="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/properties/PropertiesUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/funki/HttpGetFormTestx.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/weixue/HttpWeixueTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/properties/weixue.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/weixue/HttpRecommendCourse.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/funki/HttpFunkiFormTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/funki/HttpFunkiFormsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/chargestation/message/HttpMessagePostTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/chargestation/web/HttpChargeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/HttpUserGetTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/chargestation/HttpUserPostTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/chargestation/coupon/HttpGetCouponTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/chargestation/charge/HttpChargePostTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/chargestation/account/HttpAccountTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/funki/HttpPostXml.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/funki/HttpApplicationJsonTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/base/HttpBaseApplicationJson.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/HttpFormTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="22" />
+    <option name="x" value="57" />
     <option name="y" value="26" />
     <option name="width" value="1317" />
     <option name="height" value="874" />
@@ -300,6 +320,65 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testhttpclient" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestHttpClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestHttpClient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testhttpclient" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestHttpClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestHttpClient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testhttpclient" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="chargestation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestHttpClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestHttpClient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testhttpclient" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestHttpClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestHttpClient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testhttpclient" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="funki" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestHttpClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestHttpClient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testhttpclient" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="weixue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestHttpClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestHttpClient" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testhttpclient" type="462c0819:PsiDirectoryNode" />
               <item name="properties" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -313,7 +392,12 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SearchEverywhereHistoryKey" value="HttpG&#9;FILE&#9;file:///Users/monotonewang/Desktop/TestHttpClient/src/test/java/com/example/ubuntu/testhttpclient/http/funki/HttpGetFormTestx.java&#10;HttpUser&#9;FILE&#9;file:///Users/monotonewang/Desktop/TestHttpClient/src/test/java/com/example/ubuntu/testhttpclient/http/HttpUserLoginTest.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536118400179" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536124475887" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/funki" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -327,8 +411,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HttpWeixueTest.sortRecommendList">
-    <configuration name="HttpWeixueTest.getCodeAndLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HttpRecommendCourse.getRecommendList">
+    <configuration name="HttpRecommendCourse.getRecommendList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
         <pattern>
@@ -337,40 +421,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.ubuntu.testhttpclient.http.weixue" />
-      <option name="MAIN_CLASS_NAME" value="com.example.ubuntu.testhttpclient.http.weixue.HttpWeixueTest" />
-      <option name="METHOD_NAME" value="getCodeAndLogin" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HttpWeixueTest.getOrganizationId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.ubuntu.testhttpclient.http.weixue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.ubuntu.testhttpclient.http.weixue" />
-      <option name="MAIN_CLASS_NAME" value="com.example.ubuntu.testhttpclient.http.weixue.HttpWeixueTest" />
-      <option name="METHOD_NAME" value="getOrganizationId" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HttpWeixueTest.getRecommendList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.ubuntu.testhttpclient.http.weixue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.ubuntu.testhttpclient.http.weixue" />
-      <option name="MAIN_CLASS_NAME" value="com.example.ubuntu.testhttpclient.http.weixue.HttpWeixueTest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ubuntu.testhttpclient.http.weixue.HttpRecommendCourse" />
       <option name="METHOD_NAME" value="getRecommendList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpWeixueTest.getCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ubuntu.testhttpclient.http.weixue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ubuntu.testhttpclient.http.weixue" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ubuntu.testhttpclient.http.weixue.HttpWeixueTest" />
+      <option name="METHOD_NAME" value="getCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpWeixueTest.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ubuntu.testhttpclient.http.weixue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ubuntu.testhttpclient.http.weixue" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ubuntu.testhttpclient.http.weixue.HttpWeixueTest" />
+      <option name="METHOD_NAME" value="login" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -392,7 +476,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpWeixueTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HttpWeixueTest.testListTOString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
         <pattern>
@@ -402,26 +486,26 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.ubuntu.testhttpclient.http.weixue" />
       <option name="MAIN_CLASS_NAME" value="com.example.ubuntu.testhttpclient.http.weixue.HttpWeixueTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="METHOD_NAME" value="testListTOString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.HttpWeixueTest.getCodeAndLogin" />
-      <item itemvalue="JUnit.HttpWeixueTest.getOrganizationId" />
-      <item itemvalue="JUnit.HttpWeixueTest.getRecommendList" />
       <item itemvalue="JUnit.HttpWeixueTest.sortRecommendList" />
-      <item itemvalue="JUnit.HttpWeixueTest.test" />
+      <item itemvalue="JUnit.HttpWeixueTest.testListTOString" />
+      <item itemvalue="JUnit.HttpWeixueTest.login" />
+      <item itemvalue="JUnit.HttpWeixueTest.getCode" />
+      <item itemvalue="JUnit.HttpRecommendCourse.getRecommendList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HttpRecommendCourse.getRecommendList" />
+        <item itemvalue="JUnit.HttpWeixueTest.login" />
+        <item itemvalue="JUnit.HttpWeixueTest.getCode" />
+        <item itemvalue="JUnit.HttpWeixueTest.testListTOString" />
         <item itemvalue="JUnit.HttpWeixueTest.sortRecommendList" />
-        <item itemvalue="JUnit.HttpWeixueTest.getRecommendList" />
-        <item itemvalue="JUnit.HttpWeixueTest.test" />
-        <item itemvalue="JUnit.HttpWeixueTest.getOrganizationId" />
-        <item itemvalue="JUnit.HttpWeixueTest.getCodeAndLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -447,41 +531,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HttpWeixueTest_test - 2018.09.05 at 10h 56m 34s.xml">
-      <configuration name="HttpWeixueTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HttpWeixueTest_test - 2018.09.05 at 10h 57m 28s.xml">
-      <configuration name="HttpWeixueTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HttpWeixueTest_test - 2018.09.05 at 11h 02m 09s.xml">
-      <configuration name="HttpWeixueTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HttpWeixueTest_test - 2018.09.05 at 11h 04m 49s.xml">
-      <configuration name="HttpWeixueTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HttpWeixueTest_test - 2018.09.05 at 11h 05m 17s.xml">
-      <configuration name="HttpWeixueTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HttpWeixueTest_test - 2018.09.05 at 11h 06m 30s.xml">
-      <configuration name="HttpWeixueTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HttpWeixueTest_getRecommendList - 2018.09.05 at 11h 07m 36s.xml">
-      <configuration name="HttpWeixueTest.getRecommendList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HttpWeixueTest_sortRecommendList - 2018.09.05 at 11h 09m 14s.xml">
-      <configuration name="HttpWeixueTest.sortRecommendList" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HttpWeixueTest_sortRecommendList - 2018.09.05 at 11h 10m 20s.xml">
       <configuration name="HttpWeixueTest.sortRecommendList" configurationId="JUnit" />
     </history-entry>
     <history-entry file="HttpWeixueTest_sortRecommendList - 2018.09.05 at 11h 12m 51s.xml">
       <configuration name="HttpWeixueTest.sortRecommendList" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HttpWeixueTest_testListTOString - 2018.09.05 at 11h 50m 05s.xml">
+      <configuration name="HttpWeixueTest.testListTOString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HttpWeixueTest_testListTOString - 2018.09.05 at 11h 50m 16s.xml">
+      <configuration name="HttpWeixueTest.testListTOString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HttpWeixueTest_testListTOString - 2018.09.05 at 12h 18m 14s.xml">
+      <configuration name="HttpWeixueTest.testListTOString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HttpWeixueTest_login - 2018.09.05 at 13h 09m 15s.xml">
+      <configuration name="HttpWeixueTest.login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HttpWeixueTest_getCode - 2018.09.05 at 13h 10m 06s.xml">
+      <configuration name="HttpWeixueTest.getCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HttpWeixueTest_login - 2018.09.05 at 13h 10m 11s.xml">
+      <configuration name="HttpWeixueTest.login" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HttpRecommendCourse_getRecommendList - 2018.09.05 at 13h 11m 26s.xml">
+      <configuration name="HttpRecommendCourse.getRecommendList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HttpRecommendCourse_getRecommendList - 2018.09.05 at 13h 11m 56s.xml">
+      <configuration name="HttpRecommendCourse.getRecommendList" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="22" y="26" width="1317" height="874" extended-state="0" />
+    <frame x="57" y="26" width="1317" height="874" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2517647" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3309804" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -489,15 +573,15 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49490196" weight="0.32992327" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8580392" visible="true" weight="0.6253197" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49411765" weight="0.32992327" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8572549" weight="0.22506393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.6112532" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49960783" weight="0.342711" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.14196078" side_tool="true" visible="true" weight="0.6253197" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49882352" visible="true" weight="0.7493606" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49803922" weight="0.342711" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5011765" side_tool="true" visible="true" weight="0.7493606" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.1375839" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49882352" weight="0.40537083" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -523,20 +607,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/funki/HttpAuthTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/funki/HttpDynamicTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-827">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -561,33 +631,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/file/HttpUploadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="6" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/src/lib/gson-2.8.1.jar!/com/google/gson/JsonObject.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/HttpFormTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#16931#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/HttpApplicationJsonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -602,13 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/base/HttpBaseApplicationJson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -654,13 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/funki/HttpFormTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="152" column="36" selection-start-line="152" selection-start-column="36" selection-end-line="152" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -689,25 +722,214 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/properties/weixue.properties">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="jar://$PROJECT_DIR$/src/lib/gson-2.8.1.jar!/com/google/gson/JsonArray.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1867">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/funki/HttpGetFormTestx.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/funki/HttpAuthTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2139">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/funki/HttpDynamicTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="195" column="29" selection-start-line="195" selection-start-column="29" selection-end-line="195" selection-end-column="29" />
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/funki/HttpFunkiFormTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="24" lean-forward="true" selection-end-line="338" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/funki/HttpFunkiFormsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/weixue/HttpRecommendCourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/HttpApplicationJsonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/chargestation/station/HttpGetStationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/chargestation/station/HttpMessagePostTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/chargestation/station/HttpPostStationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/chargestation/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/chargestation/message/HttpMessagePostTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/chargestation/web/HttpChargeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/chargestation/HttpUserPostTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/chargestation/coupon/HttpGetCouponTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/chargestation/charge/HttpChargePostTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1750">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/net/HttpURLConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/funki/HttpPostXml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/funki/HttpApplicationJsonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/chargestation/account/HttpAccountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/base/HttpBaseApplicationJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/base/HttpGetFormTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-283">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/base/HttpIpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/file/HttpUploadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="6" selection-end-line="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/weixue/HttpWeixueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="225" lean-forward="true" selection-start-line="225" selection-end-line="225" />
+        <state relative-caret-position="673">
+          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="109" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3704#3705#0" expanded="true" />
-            <element signature="e#3767#3768#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/HttpFormTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="218" column="36" lean-forward="true" selection-start-line="218" selection-start-column="36" selection-end-line="218" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/HttpUserGetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-564">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/properties/weixue.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ubuntu/testhttpclient/http/HttpGetFormTestx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
         </state>
       </provider>
     </entry>

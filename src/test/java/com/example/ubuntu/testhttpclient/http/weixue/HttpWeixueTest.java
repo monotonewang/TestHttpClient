@@ -1,18 +1,13 @@
 package com.example.ubuntu.testhttpclient.http.weixue;
 
-import com.example.ubuntu.testhttpclient.http.HttpUserLoginTest;
-import com.example.ubuntu.testhttpclient.http.funki.HttpFormTest;
-import com.example.ubuntu.testhttpclient.http.funki.HttpGetFormTestx;
+import com.example.ubuntu.testhttpclient.http.HttpFormTest;
+import com.example.ubuntu.testhttpclient.http.HttpGetFormTestx;
 import com.example.ubuntu.testhttpclient.properties.PropertiesUtils;
 import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import org.apache.http.util.TextUtils;
 import org.junit.Test;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
 import java.util.*;
 
 public class HttpWeixueTest {
@@ -38,36 +33,16 @@ public class HttpWeixueTest {
         }
     }
 
-    @Test
-    public void login() {
-        HashMap hashMap = new HashMap<>();
-
-        hashMap.put("mobile", "13634133426");
-        hashMap.put("code", "1234");
-        hashMap.put("password", "xxx");
-        HttpFormTest.postFormByForm(hashMap, getBaseUrl(http_status) + "/v1/user/auth/login");
-
-    }
-
-    @Test
-    public void getCode() {
-        HashMap hashMap = new HashMap<>();
-
-        hashMap.put("mobile", "13634133426");
-        HttpGetFormTestx.getForm(hashMap, getBaseUrl(http_status) + "/v1/user/auth/get_code");
 
 
-    }
-
-
-    String organization_id = "organization_id";
-    String token = "token";
-    String customer_id = "customer_id";
+    static String organization_id = "organization_id";
+    static  String token = "token";
+    static  String customer_id = "customer_id";
 
     /**
      * @return
      */
-    public List<String> getTokenAndCustomerId() {
+    public static List<String> getTokenAndCustomerId() {
 
 
         String mobile = "13634133426";
@@ -105,7 +80,7 @@ public class HttpWeixueTest {
      *
      * @return
      */
-    public String getToken() {
+    public static String getToken() {
         String keyValue = PropertiesUtils.getKeyValue(token);
         System.out.println(keyValue);
         if (TextUtils.isEmpty(keyValue)) {
@@ -118,7 +93,7 @@ public class HttpWeixueTest {
         return PropertiesUtils.getKeyValue(customer_id);
     }
 
-    public String getOrganization_id(int position) {
+    public static String getOrganization_id(int position) {
         String keyValue = PropertiesUtils.getKeyValue(organization_id);
         System.out.println(keyValue);
         if (TextUtils.isEmpty(keyValue)) {
@@ -136,16 +111,12 @@ public class HttpWeixueTest {
 
 
     /**
-     * 更
-     * <p>
-     * <p>
-     * /**
-     * 获取token customerId organizationId
+     * 获取服务器organizationId
      *
      * @param position
      * @return
      */
-    public String getOrganizationServerId(int position) {
+    public static String getOrganizationServerId(int position) {
         HashMap hashMapCompany = new HashMap<>();
         hashMapCompany.put("token", getToken());
         JsonObject jsonObjectCompany = HttpGetFormTestx.getFormString(hashMapCompany, getBaseUrl(http_status) + "/v1/user/info/organizations");
@@ -162,70 +133,26 @@ public class HttpWeixueTest {
     }
 
 
+    @Deprecated
     @Test
-    public void getRecommendList() {
+    public void login() {
+        HashMap hashMap = new HashMap<>();
 
-        HashMap hashMapCompany = new HashMap<>();
-        hashMapCompany.put("token", getToken());
-        hashMapCompany.put("organization_id", getOrganization_id(0));
+        hashMap.put("mobile", "13634133426");
+        hashMap.put("code", "1234");
+        hashMap.put("password", "xxx");
+        HttpFormTest.postFormByForm(hashMap, getBaseUrl(http_status) + "/v1/user/auth/login");
 
-        JsonObject jsonObjectCompany = HttpGetFormTestx.getFormString(hashMapCompany, getBaseUrl(http_status) + "/v1/organization/recommend_course/list");
-        //getNewCourseId
-        JsonArray data = jsonObjectCompany.getAsJsonArray("data");
-        List<String> list = new ArrayList<>();
-        for (JsonElement jsonElement : data) {
-            String course_id = jsonElement.getAsJsonObject().get("course_id").getAsString();
-            list.add(course_id);
-        }
-        System.out.println(list);
-
-    }
-
-    public List<String> getRecommendListX() {
-
-        HashMap hashMapCompany = new HashMap<>();
-        hashMapCompany.put("token", getToken());
-        hashMapCompany.put("organization_id", getOrganization_id(0));
-
-        JsonObject jsonObjectCompany = HttpGetFormTestx.getFormString(hashMapCompany, getBaseUrl(http_status) + "/v1/organization/recommend_course/list");
-        //getNewCourseId
-        JsonArray data = jsonObjectCompany.getAsJsonArray("data");
-        List<String> list = new ArrayList<>();
-        for (JsonElement jsonElement : data) {
-            String course_id = jsonElement.getAsJsonObject().get("course_id").getAsString();
-            list.add(course_id);
-        }
-        return list;
     }
 
     @Test
-    public void sortRecommendList() {
+    public void getCode() {
+        HashMap hashMap = new HashMap<>();
 
-        List<String> recommendListX = getRecommendListX();
-
-        System.out.println("recommendListX=" + recommendListX);
-        Collections.swap(recommendListX, 0, 1);
-
-        System.out.println("recommendListX after--sort=" + recommendListX);
-        String organizationId = getOrganization_id(0);
-        HashMap hashMapCompany = new HashMap<>();
-        hashMapCompany.put("token", getToken());
-        hashMapCompany.put("organization_id", getOrganization_id(0));
-        for (int i = 0; i < recommendListX.size(); i++) {
-
-            hashMapCompany.put(String.format("course_id[%s]", i), recommendListX.get(i));
-        }
-//            hashMapCompany.put(String.format("course_id[%s]", 0),"2228");
-//            hashMapCompany.put(String.format("course_id[%s]", 1),"2258");
-
-        JsonObject jsonObjectCompany = HttpGetFormTestx.getFormString(hashMapCompany, getBaseUrl(http_status) + "/v1/organization/recommend_course/update_all_sort");
-        //getNewCourseId
-        System.out.println(jsonObjectCompany);
-
-        List<String> recommendListY= getRecommendListX();
-
-        System.out.println("recommendListX after--server sort=" + recommendListY);
+        hashMap.put("mobile", "13634133426");
+        HttpGetFormTestx.getForm(hashMap, getBaseUrl(http_status) + "/v1/user/auth/get_code");
     }
+
 
 
 }
