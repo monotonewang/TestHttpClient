@@ -1,4 +1,4 @@
-package com.example.ubuntu.testhttpclient.properties;
+package com.example.ubuntu.testhttpclient.http.properties;
 
 import java.io.*;
 import java.util.Properties;

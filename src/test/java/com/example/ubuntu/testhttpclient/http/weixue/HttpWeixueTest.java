@@ -2,7 +2,7 @@ package com.example.ubuntu.testhttpclient.http.weixue;
 
 import com.example.ubuntu.testhttpclient.http.HttpFormTest;
 import com.example.ubuntu.testhttpclient.http.HttpGetFormTestx;
-import com.example.ubuntu.testhttpclient.properties.PropertiesUtils;
+import com.example.ubuntu.testhttpclient.http.properties.PropertiesUtils;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import org.apache.http.util.TextUtils;
