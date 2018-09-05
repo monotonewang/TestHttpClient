@@ -2,6 +2,7 @@ package com.example.ubuntu.testhttpclient.http.funki;
 
 import com.google.gson.JsonObject;
 
+import com.google.gson.JsonParser;
 import org.apache.http.HttpEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpPost;
@@ -149,7 +150,7 @@ public class HttpFormTest {
 
 
     @Test
-    public static void postFormByForm(HashMap<String,String> hashMap, String url) {
+    public static JsonObject postFormByForm(HashMap<String,String> hashMap, String url) {
         CloseableHttpClient httpclient = HttpClients.createDefault();// 创建默认的httpClient实例.
         System.out.println("url=" + url);
         HttpPost httppost = new HttpPost(url);        // 创建httppost
@@ -189,7 +190,13 @@ public class HttpFormTest {
                 HttpEntity entity = response.getEntity();
                 if (entity != null) {
                     System.out.println("length" + entity.getContentLength());
-                    System.out.println(EntityUtils.toString(entity, "UTF-8"));
+                    String jsonString = EntityUtils.toString(entity, "UTF-8");
+                    System.out.println();
+
+                    JsonObject returnData = new JsonParser().parse(jsonString).getAsJsonObject();
+                    return returnData;
+
+
 //                    System.out.println("Response content: \n" + EntityUtils.toString(entity, "UTF-8"));
                 }
             } finally {
@@ -205,6 +212,7 @@ public class HttpFormTest {
                 e.printStackTrace();
             }
         }
+        return null;
     }
 
 

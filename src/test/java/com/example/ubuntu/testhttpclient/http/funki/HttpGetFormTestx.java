@@ -2,6 +2,7 @@ package com.example.ubuntu.testhttpclient.http.funki;
 
 import com.google.gson.JsonObject;
 
+import com.google.gson.JsonParser;
 import org.apache.http.Consts;
 import org.apache.http.HttpEntity;
 import org.apache.http.NameValuePair;
@@ -192,7 +193,7 @@ public class HttpGetFormTestx {
     }
 
 
-    public static String getFormString(HashMap<String, String> hashMap, String url) {
+    public static JsonObject getFormString(HashMap<String, String> hashMap, String url) {
         CloseableHttpClient httpClient = HttpClients.createDefault();// 创建默认的httpClient实例.
         System.out.println("url=" + url);
         HttpGet httpGet = null;
@@ -203,7 +204,7 @@ public class HttpGetFormTestx {
         List<NameValuePair> params = new ArrayList<>();
 
         for (String key : hashMap.keySet()) {
-            System.out.println("Key: " + key + " Value: " + hashMap.get(key));
+//            System.out.println("Key: " + key + " Value: " + hashMap.get(key));
             j.addProperty(key, hashMap.get(key));
             params.add(new BasicNameValuePair(key, hashMap.get(key)));
 
@@ -232,12 +233,13 @@ public class HttpGetFormTestx {
                 HttpEntity entity = response.getEntity();
                 if (entity != null) {
                     System.out.println("length" + entity.getContentLength());
-                    System.out.println(EntityUtils.toString(entity, "UTF-8"));
-                    JsonObject jsonObject=new JsonObject();
-                    JsonObject asJsonObject = jsonObject.getAsJsonObject(EntityUtils.toString(entity, "UTF-8"));
-                    String code = asJsonObject.get("code").getAsString();
+                    String jsonstr = EntityUtils.toString(entity, "UTF-8");
+                    System.out.println(jsonstr);
+
+                    JsonObject returnData = new JsonParser().parse(jsonstr).getAsJsonObject();
+                    String code = returnData.get("code").getAsString();
                     System.out.println( code +"code=");
-                    return "";
+                    return returnData;
 //                    System.out.println("Response content: \n" + EntityUtils.toString(entity, "UTF-8"));
                 }
             } finally {
@@ -253,7 +255,7 @@ public class HttpGetFormTestx {
                 e.printStackTrace();
             }
         }
-        return "";
+        return null;
     }
 
 }
