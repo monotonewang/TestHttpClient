@@ -1,5 +1,6 @@
 package com.example.ubuntu.testhttpclient;
 
+import org.apache.http.util.TextUtils;
 import org.junit.Test;
 
 import java.text.DecimalFormat;
@@ -9,6 +10,33 @@ import java.text.DecimalFormat;
  */
 
 public class DoubleTest {
+
+
+    //    }
+
+    /**
+     * 保留两位 为空则为0
+     */
+    @Test
+    public void test() {
+        String duration = "";
+        String x = null;
+        if (!TextUtils.isEmpty(x)) {
+            if (!x.equals("0")) {
+                try {
+                    duration = new DecimalFormat("#0.00").format(Double.valueOf(x));
+                } catch (Exception e) {
+                    duration = "0";
+                }
+            }else{
+                duration = "0";
+            }
+        } else {
+            duration = "0";
+        }
+
+        System.out.println("dsds=" + duration);
+    }
 
     @Test
     public void testDouble() {

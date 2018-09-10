@@ -10,12 +10,14 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
+import org.apache.http.util.TextUtils;
 import org.junit.Test;
 
 import java.io.IOException;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 import java.nio.charset.Charset;
+import java.text.DecimalFormat;
 import java.util.HashMap;
 
 
@@ -137,20 +139,13 @@ public class HttpFormTest {
 //String url = "http://35.164.1.183:7000/auth/register/email/check";//校验邮箱验证码
 
 
-
-
-
-
-
 // livestream
 //String url = "http://35.164.1.183:7000/livestream/api/hot";//获取热门直播
 //String url = "http://35.164.1.183:7000/livestream/api/latest";//获取最新直播
 
 
-
-
     @Test
-    public static JsonObject postFormByForm(HashMap<String,String> hashMap, String url) {
+    public static JsonObject postFormByForm(HashMap<String, String> hashMap, String url) {
         CloseableHttpClient httpclient = HttpClients.createDefault();// 创建默认的httpClient实例.
         System.out.println("url=" + url);
         HttpPost httppost = new HttpPost(url);        // 创建httppost
@@ -174,9 +169,8 @@ public class HttpFormTest {
         JsonObject j = new JsonObject();
 
 
-        for(String key:hashMap.keySet())
-        {
-            System.out.println("Key: "+key+" Value: "+hashMap.get(key));
+        for (String key : hashMap.keySet()) {
+            System.out.println("Key: " + key + " Value: " + hashMap.get(key));
             j.addProperty(key, hashMap.get(key));
         }
 
@@ -213,8 +207,6 @@ public class HttpFormTest {
     }
 
 
-
-
     @Test
     public static void postFormByApplicationJson(Object[][] string, String url) {
         CloseableHttpClient httpclient = HttpClients.createDefault();// 创建默认的httpClient实例.
@@ -248,7 +240,7 @@ public class HttpFormTest {
                 } else if (value instanceof Integer) {
                     Integer value1 = (Integer) value;
                     j.addProperty(key, value1);
-                }else if (value instanceof Boolean) {
+                } else if (value instanceof Boolean) {
                     Boolean value2 = (Boolean) value;
                     j.addProperty(key, value2);
                 }
@@ -328,5 +320,5 @@ public class HttpFormTest {
 //            }
 //        }
 //        return xx;
-//    }
+
 }
